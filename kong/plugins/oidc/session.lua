@@ -10,6 +10,10 @@ function M.configure(config)
     end
     ngx.var.session_secret = decoded_session_secret
   end
+
+  if config.session_cookie_domain then
+    ngx.var.session_cookie_domain = config.session_cookie_domain
+  end
 end
 
 return M
