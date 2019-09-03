@@ -2,7 +2,7 @@ package = "kong-oidc"
 version = "1.2.0-0"
 source = {
     url = "git://github.com/CandisIO/kong-oidc",
-    tag = "v1.2.0",
+    tag = "CAN-1756-support-setting-session-cookie-domain",
     dir = "kong-oidc"
 }
 description = {
